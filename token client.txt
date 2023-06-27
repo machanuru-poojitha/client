@@ -1,0 +1,54 @@
+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
+git remote add origin https://github.com/machanuru-poojitha/client.git
+
+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    ===token clint2
+ 1  yum install git -y
+    2  git -v
+    3  mkdir clientt
+    4  cd clientt/
+    5  git init
+    6  touch clienttt{1..5}
+    7  ll
+    8  git add *
+    9  git commit -m "commit" *
+   10  git status
+   11  git branch
+   12  git branch movies
+   13  git branch
+   14  git checkout movies
+   15  touch movies{1..5}
+   16  git status
+   17  git add *
+   18  git commit -m "commit" *
+   19  git status
+   20  ll
+   21  git branch
+   22  git branch bucket
+   23  ll
+   24  git checkout bucket
+   25  git branch
+   26  touch bucket{1..5}
+   27  git add *
+   28  git commit -m "commit" *
+   29  git status
+   30  ll
+   31  git branch
+   32  git remote add origin https://github.com/machanuru-poojitha/client.git
+   33  machanuru-poojitha
+   34  git branch
+   35  git checkout master
+   36  git branch
+   37  git remote add origin https://github.com/machanuru-poojitha/client.git
+   38  git remote add origin https://github.com/machanuru-poojitha/devops.git
+   39  machanuru-poojitha
+   40  exit
+   41  git -v
+   42  ll
+   43  clientt ls
+   44  client ls
+   45  cd clientt
+   46  ls
+   47  git branch
+   48  git push origin buckets
+   49  history
+[root@ip-172-31-33-156 clientt]#
