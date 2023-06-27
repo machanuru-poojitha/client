@@ -1,9 +1,8 @@
-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
 git remote add origin https://github.com/machanuru-poojitha/client.git
 
-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    ===token clint2
  1  yum install git -y
-    2  git -v
+    2  git -vls
+
     3  mkdir clientt
     4  cd clientt/
     5  git init
@@ -52,3 +51,137 @@ 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    ===token clint2
    48  git push origin buckets
    49  history
 [root@ip-172-31-33-156 clientt]#
+
+echo "# gitpractice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/machanuru-poojitha/gitpractice.git
+git push -u origin main
+
+
+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   --github token
+ 1  git -v
+    2  yum install git -y
+    3  git -v
+    4  mkdir phone
+    5  cd phone/
+    6  git init
+    7  git branch
+    8  touch file1
+    9  ll
+   10  git add file1
+   11  git status
+   12  git commit -m "commit" *
+   13  git status
+   14  git branch
+   15  git branch tree{1..5}
+   16  ll
+   17  git branch
+   18  git branch tree
+   19  git branch
+   20  git checkout tree
+   21  git status
+   22  git branch
+   23  touch tree{1..5}
+   24  ll
+   25  git add *
+   26  git commit -m "commit" *
+   27  git branch
+   28  git branch plant
+   29  git checkout plant
+   30  git branch
+   31  touch plant{1..5}
+   32  git add *
+   33  git commit -m "commit" *
+   34  git status
+   35  git branch
+   36  ls -al
+   37  cd ..
+   38  ls -al
+   39  mkdir  client
+   40  cd client/
+   41  echo "# client" >> README.md
+   42  git init
+   43  git add README.md
+   44  git commit -m "first commit"
+   45  git branch -M main
+   46  git remote add origin https://github.com/machanuru-poojitha/client.git
+   47  git push -u origin main
+   48  git branche
+   49  git branch
+   50  history
+   51  cd ..
+   52  ls
+   53  cd phone
+   54  git branch
+   55  ls
+   56  git checkout master
+   57  ls
+   58  git branch
+   59  git branch -M main
+   60  git branch
+   61  git remote add origin https://github.com/machanuru-poojitha/gitpractice.git
+   62  git remote -v
+   63  git push -u origin main
+   64  ps
+   65  git push -u origin main
+   66  ls
+   67  clear
+   68  cd ..
+   69  ls
+   70  rm -rf *
+   71  ls
+   72  mkdir train
+   73  cd train/
+   74  git -v
+   75  touch train{1..5}
+   76  ls
+   77  ls -al
+   78  git init
+   79  ls
+   80  ls -al
+   81  git status
+   82  git add .
+   83  git status
+   84  git branch
+   85  git commit -m "commit"
+   86  git branch
+   87  git branch -m  main
+   88  git branch
+   89  git remote add origin https://github.com/machanuru-poojitha/gitpractice.git
+   90  git push -u origin main
+   91  git checkout -b recharge
+   92  git branch
+   93  ls
+   94  touch recharge{1..5}
+   95  git status
+   96  git add .
+   97  git config user.name machanuru-poojitha
+   98  git config user.email machanurupoojitha2000@gmail.com
+   99  git commit -m "hi"
+  100  git branch -b dth
+  101  git checkout -b dth
+  102  touch dth{1..5}
+  103  ls
+  104  git add .
+  105  git commit -m "commit3"
+  106  ls
+  107  git push origin dth
+  108  git branch
+  109  git checkout recharge
+  110  git branch
+  111  ls
+  112  git push origin recharge
+  113  ls
+  114  git checkout main
+  115  ls
+  116  git merge train
+  117  git branch
+  118  git merge dth
+  119  ls
+  120  git merge recharge
+  121  git push origin main
+  122  history
+[root@ip-172-31-32-196 train]#
